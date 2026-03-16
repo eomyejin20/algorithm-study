@@ -81,7 +81,9 @@ git remote -v
 ### 4️⃣ 작업 전 Sync
 
 작업 전 **반드시 최신 코드로 동기화**
+- 개인 리포지토리 synk fork 후 git pull
 
+또는  
 ```bash
 git fetch upstream
 git merge upstream/main
