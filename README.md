@@ -101,7 +101,7 @@ git pull upstream main
 
 ```bash
 git add .
-git commit -m "(#이슈번호)week01: BOJ 1920 수찾기"
+git commit -m "(#이슈번호)week01: PGS 수찾기"
 git push origin main
 ```
 
@@ -160,6 +160,8 @@ algorithm-study
 │  │  └─ boj_10828_스택.java
 │  │
 │  ├─ week02
+│  │  ├─ pgs_같은 숫자는 싫어.java
+│  │  └─ pgs_올바른 괄호.java
 │  └─ week03
 │
 ├─ HAERIM_NAM
@@ -175,6 +177,7 @@ algorithm-study
 
 ```
 boj_문제번호_문제이름.언어
+pgs_문제이름.언어
 ```
 
 예
@@ -182,6 +185,8 @@ boj_문제번호_문제이름.언어
 ```
 boj_1920_수찾기.java
 boj_1010_다리놓기.py
+pgs_올바른 괄호.java
+pgs_같은 숫자는 싫어.cpp
 ```
 
 ---
@@ -192,7 +197,8 @@ PR 생성 시 아래 형식으로 작성
 
 ### 예시
 
-**1010 - 다리 놓기**
+**1010(없으면 생략) - 다리 놓기**
+
 
 🤔 **접근 방법**
 
